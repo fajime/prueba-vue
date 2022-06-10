@@ -1,6 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <HelloWorld msg="texto pasado por param">
+    <template v-slot:header>
+      <h1>Header de la página</h1>
+    </template>
+
+    <p>Contenido de la página</p>
+
+    <template v-slot:footer>
+      <p>Footer de la página</p>
+    </template>
+  </HelloWorld>
 </template>
 
 <script>
