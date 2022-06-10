@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>Titulo</h1>
-
     <header>
       <slot name="header"></slot>
     </header>
